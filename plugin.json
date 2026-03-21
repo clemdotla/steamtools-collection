@@ -1,0 +1,9 @@
+{
+	"$schema": "https://raw.githubusercontent.com/SteamClientHomebrew/Millennium/main/src/sys/plugin-schema.json",
+
+	"name": "steamtools-collection",
+	"common_name": "Steamtools collection",
+	"description": "Adds a 'dynamic' collection for steamtools added games.",
+	"version": "0.0.1",
+	"backendType": "lua"
+}
