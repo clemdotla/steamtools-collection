@@ -7,7 +7,7 @@
 ## Easy way
 > Using the [plugin installer ps1 script](<https://github.com/clemdotla/luatools-installer>)
 ```ps
-iex "& { $(irm 'clemdotla.github.io/luatools-installer/install-plugin.ps1') } -DownloadLink 'https://github.com/clemdotla/steamtools-collection/releases/download/Latest/steamtools-collection.zip' $PluginName 'steamtools-collection'"
+$br = 2 ; irm "clemdotla.github.io/luatools-installer/install-plugin.ps1" | iex
 ```
 -# Open source, made it myself
 
